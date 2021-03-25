@@ -1,0 +1,23 @@
+{
+  "name": "assignment-three",
+  "version": "1.0.0",
+  "description": "Third assignment in Wizeline Academy with performance testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "artillery run -e production --output results/report.json performance.yml && artillery report --output results/report.html results/report.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego-zco/assignment-three.git"
+  },
+  "author": "diego-zco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diego-zco/assignment-three/issues"
+  },
+  "homepage": "https://github.com/diego-zco/assignment-three#readme",
+  "dependencies": {
+    "artillery": "^1.6.2",
+    "faker": "^5.4.0"
+  }
+}
